@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+/*Header*/
+
+.header_name {
+    font-family: 'Poiret One', sans-serif;
+    color: turquoise;
+    font-size: 3em;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;;
+    font-size: 24px;
+    color: rgb(45, 163, 151);
+  }
