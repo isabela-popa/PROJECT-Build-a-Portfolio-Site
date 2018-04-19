@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #2da397;
+}
+
+/*Header*/
+
+.header_content {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 2px solid #436864;
+}
+
+.header_logo {
+    height: 72px;
+    margin-top: 2em;
+    margin-left: 0.5em;
+    vertical-align: top;
+}
+
+.header_title {
+    margin: 1.5em 0.5em 1.5em;
+    float: right;
+}
+
+.header_name {
+    font-family: 'Poiret One', sans-serif;
+    font-size: 56px;
+}
+
+.header_proffesion {
+    float: right;
+}
+
+/*Main*/
+
+/*Section*/
+
+.content_banner {
+    width: 100%;
+    background-image: url(../images/code-sample-on-monitor-Q80.jpg);
+    background-size: cover;
+    min-height: 400px;
+    margin: 1.5em 0;
+}
+
+.content_title {
+    display: flex;
+    margin: 0 0 0.25em 0.5em;
+    width: 100%;
+}
+
+.project_image,
+.content_project {
+    width: 100%;
+}
+
+.content_project {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.content_project a {
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.content_project p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+}
+
+.project_image,
+.project_title,
+.content_project a {
+    padding: 0 0.5em;
+}
+
+/*Aside*/
+
+.color_sample {
+    color: #436864;
+    display: flex;
+    margin: 0 auto;
+}
+
+.square {
+    padding: 0.5em;
+}
+
+.square_one {
+    background: #00ffff;
+    width: 80px;
+    height: 80px;
+}
+
+.square_two {
+    background: #2da397;
+    width: 80px;
+    height: 80px;
+}
+
+.square_three {
+    background: #436864;
+    width: 80px;
+    height: 80px;
+}
+
+/*Footer*/
+
+footer {
+    border-top: 1px solid #436864;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+}
